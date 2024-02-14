@@ -85,5 +85,7 @@
 	"explorer.confirmDragAndDrop": false,
 	//
 	"breadcrumbs.symbolPath": "off",
-	"git.enableSmartCommit": true
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.autofetch": true
 }
