@@ -65,5 +65,7 @@
 	//
 	"breadcrumbs.symbolPath": "off",
 	"git.enableSmartCommit": true,
-	"vsicons.dontShowNewVersionMessage": true
+	"vsicons.dontShowNewVersionMessage": true,
+	"git.confirmSync": false,
+	"git.autofetch": true
 }
