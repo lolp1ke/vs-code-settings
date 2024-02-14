@@ -2,3 +2,7 @@ globalStorage/
 History/
 sync/
 workspaceStorage/
+
+node_modules/
+
+package-lock.json
