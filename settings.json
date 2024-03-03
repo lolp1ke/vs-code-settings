@@ -34,7 +34,9 @@
 	// Wrapping
 	"editor.wordWrap": "wordWrapColumn",
 	"editor.wordWrapColumn": 120,
-	"editor.rulers": [120],
+	"editor.rulers": [
+		120
+	],
 	// Scrollbars
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",

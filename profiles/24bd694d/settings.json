@@ -6,8 +6,6 @@
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.layoutControl.enabled": false,
 	//
-	"window.commandCenter": false,
-	//
 	"files.autoSave": "onFocusChange",
 	"files.defaultLanguage": "markdown",
 	// Hidden files/folders
@@ -17,7 +15,8 @@
 		"**/.hg": true,
 		"**/CVS": true,
 		"**/.DS_Store": true,
-		"**/Thumbs.db": true
+		"**/Thumbs.db": true,
+		"**/Cargo.lock": true
 	},
 	// Font
 	"editor.fontSize": 18,
@@ -44,9 +43,11 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.defaultFormatter": null,
-	"[rust]": {},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+	},
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": "always"
+		// "source.organizeImports": "always"
 	},
 	// Minimap
 	"editor.minimap.enabled": false,
@@ -67,5 +68,6 @@
 	"git.enableSmartCommit": true,
 	"vsicons.dontShowNewVersionMessage": true,
 	"git.confirmSync": false,
-	"git.autofetch": true
+	"git.autofetch": true,
+	"window.commandCenter": false
 }
