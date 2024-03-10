@@ -16,7 +16,9 @@
 		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/Thumbs.db": true,
-		"**/Cargo.lock": true
+		"**/Cargo.lock": true,
+		"**/target": true,
+		"**/.vscode": true
 	},
 	// Font
 	"editor.fontSize": 18,
@@ -28,6 +30,7 @@
 	"editor.cursorBlinking": "expand",
 	// Indentation
 	"editor.tabSize": 2,
+	"editor.useTabStops": true,
 	"editor.indentSize": "tabSize",
 	"editor.insertSpaces": false,
 	// Wrapping
@@ -45,6 +48,9 @@
 	"editor.defaultFormatter": null,
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+	},
+	"[toml]": {
+		"editor.defaultFormatter": "tamasfe.even-better-toml"
 	},
 	"editor.codeActionsOnSave": {
 		// "source.organizeImports": "always"
