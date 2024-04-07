@@ -6,6 +6,8 @@
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.layoutControl.enabled": false,
 	//
+	"window.commandCenter": false,
+	//
 	"files.autoSave": "onFocusChange",
 	"files.defaultLanguage": "markdown",
 	// Hidden files/folders
@@ -15,10 +17,7 @@
 		"**/.hg": true,
 		"**/CVS": true,
 		"**/.DS_Store": true,
-		"**/Thumbs.db": true,
-		"**/Cargo.lock": true,
-		"**/target": true,
-		"**/.vscode": true
+		"**/Thumbs.db": true
 	},
 	// Font
 	"editor.fontSize": 18,
@@ -30,7 +29,6 @@
 	"editor.cursorBlinking": "expand",
 	// Indentation
 	"editor.tabSize": 2,
-	"editor.useTabStops": true,
 	"editor.indentSize": "tabSize",
 	"editor.insertSpaces": false,
 	// Wrapping
@@ -46,14 +44,8 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.defaultFormatter": null,
-	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust-analyzer",
-	},
-	"[toml]": {
-		"editor.defaultFormatter": "tamasfe.even-better-toml"
-	},
 	"editor.codeActionsOnSave": {
-		// "source.organizeImports": "always"
+		"source.organizeImports": "always"
 	},
 	// Minimap
 	"editor.minimap.enabled": false,
@@ -73,7 +65,6 @@
 	"breadcrumbs.symbolPath": "off",
 	"git.enableSmartCommit": true,
 	"vsicons.dontShowNewVersionMessage": true,
-	"git.confirmSync": false,
 	"git.autofetch": true,
-	"window.commandCenter": false
+	"git.confirmSync": false
 }

@@ -63,5 +63,7 @@
 	"explorer.confirmDragAndDrop": false,
 	//
 	"breadcrumbs.symbolPath": "off",
-	"git.enableSmartCommit": true
+	"git.enableSmartCommit": true,
+	"extensions.ignoreRecommendations": true,
+	"security.workspace.trust.untrustedFiles": "open"
 }
