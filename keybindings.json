@@ -51,4 +51,14 @@
     "command": "editor.action.rename",
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   },
+  {
+    "key": "ctrl+/",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "editor.action.commentLine",
+        "cursorDown"
+      ]
+    },
+  }
 ]
