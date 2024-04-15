@@ -39,7 +39,6 @@
 	],
 	// Scrollbars
 	"editor.scrollbar.horizontal": "hidden",
-	"editor.scrollbar.vertical": "hidden",
 	// Formatter
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
@@ -66,5 +65,6 @@
 	"git.enableSmartCommit": true,
 	"vsicons.dontShowNewVersionMessage": true,
 	"git.autofetch": true,
-	"git.confirmSync": false
+	"git.confirmSync": false,
+	"extensions.ignoreRecommendations": true,
 }
