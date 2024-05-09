@@ -60,5 +60,13 @@
         "cursorDown"
       ]
     },
+  },
+  {
+    "key": "alt+n",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
   }
 ]
