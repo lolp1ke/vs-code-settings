@@ -43,7 +43,7 @@
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
-    "key": "alt+n",
+    "key": "ctrl+k ctrl+b",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -60,9 +60,5 @@
         "cursorDown"
       ]
     },
-  },
-  {
-    "key": "ctrl+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
   }
 ]
