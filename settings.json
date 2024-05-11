@@ -1,7 +1,5 @@
 {
 	"workbench.startupEditor": "none",
-	// Appereance
-	"workbench.iconTheme": "vscode-icons",
 	"workbench.colorTheme": "Void",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.layoutControl.enabled": false,
