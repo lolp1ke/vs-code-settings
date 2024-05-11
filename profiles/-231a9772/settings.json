@@ -1,0 +1,70 @@
+{
+	"workbench.startupEditor": "none",
+	// Appereance
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.colorTheme": "Void",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.layoutControl.enabled": false,
+	//
+	"window.commandCenter": false,
+	//
+	"files.autoSave": "onFocusChange",
+	"files.defaultLanguage": "markdown",
+	// Hidden files/folders
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true
+	},
+	// Font
+	"editor.fontSize": 18,
+	"editor.fontFamily": "'Mononoki Nerd Font Mono', 'FiraCode Nerd Font Mono', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	// Cursor
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"editor.cursorBlinking": "expand",
+	// Indentation
+	"editor.tabSize": 2,
+	"editor.indentSize": "tabSize",
+	"editor.insertSpaces": false,
+	// Wrapping
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 120,
+	"editor.rulers": [
+		120
+	],
+	// Scrollbars
+	"editor.scrollbar.horizontal": "hidden",
+	// Formatter
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.defaultFormatter": null,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "always"
+	},
+	// Minimap
+	"editor.minimap.enabled": false,
+	// Suggestions
+	"editor.quickSuggestionsDelay": 0,
+	"editor.suggestSelection": "recentlyUsedByPrefix",
+	//
+	"editor.accessibilitySupport": "off",
+	// Terminal
+	"terminal.integrated.fontFamily": "Mononoki Nerd Font Mono",
+	"terminal.integrated.fontSize": 14,
+	// Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	//
+	"breadcrumbs.symbolPath": "off",
+	"git.enableSmartCommit": true,
+	"vsicons.dontShowNewVersionMessage": true,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"extensions.ignoreRecommendations": true,
+}
