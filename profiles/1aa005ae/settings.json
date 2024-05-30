@@ -1,6 +1,5 @@
 {
 	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Void",
 	"workbench.layoutControl.enabled": false,
 	//
 	"window.commandCenter": false,
@@ -44,6 +43,9 @@
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": "always"
 	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter",
+	},
 	// Minimap
 	"editor.minimap.enabled": false,
 	// Suggestions
@@ -62,5 +64,9 @@
 	"breadcrumbs.symbolPath": "off",
 	"git.enableSmartCommit": true,
 	"extensions.ignoreRecommendations": true,
-	"security.workspace.trust.untrustedFiles": "open"
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.colorTheme": "Void",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.productIconTheme": "fluent-icons",
+	"vsicons.dontShowNewVersionMessage": true
 }

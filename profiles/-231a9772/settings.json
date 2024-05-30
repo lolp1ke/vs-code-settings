@@ -39,12 +39,10 @@
 	],
 	// Scrollbars
 	"editor.scrollbar.horizontal": "hidden",
-	// Formatter
-	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.defaultFormatter": null,
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": "always"
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	// Minimap
 	"editor.minimap.enabled": false,
@@ -67,4 +65,18 @@
 	"git.autofetch": true,
 	"git.confirmSync": false,
 	"extensions.ignoreRecommendations": true,
+	"prettier.useTabs": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 }
