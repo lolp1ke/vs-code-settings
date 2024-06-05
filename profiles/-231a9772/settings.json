@@ -44,6 +44,9 @@
 	"[typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
 	// Minimap
 	"editor.minimap.enabled": false,
 	// Suggestions
@@ -79,4 +82,9 @@
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prisma.showPrismaDataPlatformNotification": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 }

@@ -43,9 +43,6 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.defaultFormatter": null,
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": "always"
-	},
 	// Minimap
 	"editor.minimap.enabled": false,
 	// Suggestions
