@@ -43,6 +43,10 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.defaultFormatter": null,
+	"Prettier-SQL.logicalOperatorNewline": "after",
+	"Prettier-SQL.tabSizeOverride": 2,
+	"Prettier-SQL.newlineBeforeSemicolon": true,
+	"Prettier-SQL.keywordCase": "upper",
 	// Minimap
 	"editor.minimap.enabled": false,
 	// Suggestions
